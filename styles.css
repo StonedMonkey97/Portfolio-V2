@@ -1,0 +1,160 @@
+    /* HEADER */
+#page-one {
+    background-repeat: repeat-y repeat-y;
+    background-position: right;
+    background-image: url("https://images.unsplash.com/photo-1516828848398-e04c82e9205a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80");
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Girassol', cursive;
+    color: white;
+    opacity: 0.7;
+    position: relative;
+    bottom: 25px;
+    font-size: 1.6rem;
+}
+
+.link-1 {
+    position: relative;
+    top: 70px;
+    left: 153px;
+    color: ivory;
+    font-size: 1.2rem;
+    font-family: 'Nanum Gothic Coding', monospace;
+    border: 1px solid white;
+    padding: 3px 3.5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.link-2 {
+    position: relative;
+    top: 40px;
+    left: 157.5px;
+    color: ivory;
+    font-size: 1.2rem;
+    font-family: 'Nanum Gothic Coding', monospace;
+    border: 1px solid white;
+    padding: 3px 3.5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.link-1:hover,
+.link-2:hover {
+    opacity: 0.4;
+}
+
+
+
+
+
+
+/* MID SECTION */
+#mid-section {
+    margin-top: 18px;
+}
+
+
+#mid-section p,
+.divider {
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+/* WHAT I KNOW */
+#what-i-know {
+    color: white;
+    background-position: center;
+    background-color: #232323;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#what-i-know h5,
+#what-i-know p {
+    float: right;
+}
+
+#what-i-know i {
+    float: left;
+}
+
+
+/* GET IN TOUCH */
+#get-in-touch {
+    padding-top: 35px;
+    background-position: bottom;
+    background-repeat: repeat-y;
+    color: white;
+    text-align: center;
+    background-color: #232323;
+    background-image: url("https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+#get-in-touch a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MEDIA QUERIES-Large Screens */
+
+@media only screen and (orientation:landscape) and (min-width:50em) {
+    #page-one {
+        background-position: left;
+    }
+}
+@media only screen and (orientation:landscape) and(min-width:50em) {
+    .link-1 {
+        left: 20px;
+        top: 64px;
+    }
+
+    .link-2 {
+        left: 1207px;
+        top: -30px;
+    }
+
+    #header h1 {
+        margin-top: 10px;
+    }
+}
+@media only screen and (orientation:landscape) and (min-width:50em) {
+    #mid-section {
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (orientation:landscape) and (min-width:50em) {
+    #what-i-know h5 {
+        margin-top: 15px;
+        float: none;
+    }
+
+    #what-i-know p {
+        margin-top: 15px;
+        float: none;
+    }
+}
+
+@media only screen and (orientation:landscape) and (min-width:50em) {
+    #get-in-touch {
+        background-position: center;
+    }
+
+    #get-in-touch p {
+        display: inline-block;
+        margin: 40px 25px 5px 5px;
+    }
+}
